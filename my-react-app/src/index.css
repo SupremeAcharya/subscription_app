@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcf4fab5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  /* width: 100%; */
+  border-radius: 15px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-height: 520px;
+}
+
+.left-section {
+  margin: 1%;
+  width: 274px;
+  background-image: url(../public/left.svg);
+  background-size: cover;
+  border-radius: 7px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3% 5%;
+  /* width: 400px; */
+  /* padding: 1rem; */
+}
+
+.right-section {
+  width: 350px;
+}
+
+.buton {
+  margin: 0 0 1rem 0;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.next {
+  /* padding: 8px; */
+  height: 2rem;
+  width: 5rem;
+  background-color: #174a8b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+.goback {
+  padding: 8px;
+  background-color: white;
+  color: #204d88;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.thankyou {
+  margin-top: 30%;
+  /* margin-bottom:50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-align: justify;
+
+} */
+.thank {
+  font-size: 2rem;
+  margin: 0.5rem 0rem;
+}
+
+.confirm {
+  text-align: center;
+}
+
+/* chat gpt */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    /* padding: 1rem; */
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    align-items: center;
+    background-color: transparent;
+    /* padding-inline: .5rem; */
+  }
+
+  .left-section {
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 9rem;
+    background-image: url(../public/leftmobile.svg);
+    background-size: cover;
+    border-radius: 0;
+  }
+  .right {
+    background-color: white;
+    margin: 0;
+    margin-top: -5rem;
+    padding: 1rem 1rem 0 1rem;
+    border-radius: 0.9rem;
+    height: inherit;
+    background-color: inherit;
+  }
+  
+  .right-section {
+    width: 90vw;
+    /* margin: 0 1rem; */
+    padding: 1rem;
+    background-color: white;
+    /* justify-content: space-between;
+   */
+    border-radius: 10px;
+  }
+
+  .buton {
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+  }
+
+  .thankyou {
+    margin: 0;
+    padding-block: 5rem;
+  }
+}

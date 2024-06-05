@@ -1,0 +1,57 @@
+.calcultaion {
+    background-color: rgb(241, 239, 239);
+    margin-top: 2rem;
+    padding-bottom: .01rem;
+    border-radius: 7px;
+    /* padding:1rem; */
+}
+
+.hr {
+    width: 95%;
+    margin: 0 auto;
+}
+.price1,.additional-plan,.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: black;
+}
+
+/* .money {
+    padding-top: 1rem;
+} */
+
+.choosenplan,.money,.additional-plan,.total{
+    margin:1rem;
+}
+
+.change,.handleCounter {
+    cursor: pointer;
+}
+.money, .total .b, .choosenplan .a {
+    color: #4838b1;
+    font-weight: bold;
+}
+
+
+/* chat gpt */
+
+
+
+/* Add this CSS code to make the calculation responsive */
+/* .calcultaion {
+    padding: 1rem;
+    border-radius: 7px;
+  }
+  
+  .additional-plan {
+    flex-direction: column;
+    gap: 0.5rem;
+  } */
+  
+  /* Add this CSS code to make the total section responsive */
+  /* .total {
+    flex-direction: column;
+    align-items: center;
+  } */
+  
